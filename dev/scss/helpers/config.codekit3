@@ -4,95 +4,12 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "0AE7C118-56E6-4285-8C11-D179F538E479"
+		"uuidString": "09BDFA2E-1D96-422E-B5A9-472FD0CE42CE"
 		}
 	],
 "creatorBuild": "32001",
 "files": {
-	"/deploy/css/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/css/styles-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/deploy/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/index.html",
-		"oF": 0
-		},
-	"/deploy/js/scripts-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/scripts-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/content/loading.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/deploy/loading.html",
-		"oF": 2
-		},
-	"/dev/global/head.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/global/head.html",
-		"oF": 0
-		},
-	"/dev/global/scripts.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/global/scripts.html",
-		"oF": 0
-		},
-	"/dev/index.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/index.html",
-		"oF": 2
-		},
-	"/dev/js/demo.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/dev/js/demo-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/js/scripts.js": {
-		"bF": 4,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/deploy/js/scripts-min.js",
-		"oF": 2,
-		"sC": 3,
-		"tS": 0
-		},
-	"/dev/scss/base/_base.scss": {
+	"/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -100,12 +17,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/base/_base.css",
+		"oAP": "/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/base/_normalize.scss": {
+	"/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -113,195 +30,10 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/base/_normalize.css",
+		"oAP": "/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"/dev/scss/base/_typography.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/base/_typography.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/components/_buttons.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/components/_buttons.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/components/_forms.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/components/_forms.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/components/_navigation.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/components/_navigation.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/helpers/_mixins.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/helpers/_mixins.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/helpers/_variables.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/helpers/_variables.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/layout/_footer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/layout/_footer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/layout/_header.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/layout/_header.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_demo.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_demo.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/styles.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/deploy/css/styles.css",
-		"oF": 2,
-		"oS": 0,
-		"uL": 1
-		},
-	"/node_modules": {
-		"ft": 65536,
-		"oA": 2,
-		"oAP": "/build/node_modules",
-		"oF": 0
-		},
-	"/node_modules/gsap/CSSPlugin.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/gsap/CSSPlugin-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/node_modules/gsap/gsap-core.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/gsap/gsap-core-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/node_modules/gsap/index.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/node_modules/gsap/index-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/package-lock.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/package-lock-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/package.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/package-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
 		}
 	},
 "hooks": [
@@ -309,10 +41,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 622561353.46572006,
-	"displayValue": "svgAnimation",
+	"creationDate": 624750706.06632197,
+	"displayValue": "helpers",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets-verd",
+	"iconImageName": "brackets-koamaru",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -755,7 +487,7 @@
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
-			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false, 'enforceForClassMembers': true}"
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
 		"array-bracket-newline": {
 			"active": 0,
@@ -831,7 +563,7 @@
 			},
 		"computed-property-spacing": {
 			"active": 0,
-			"optionString": "'never', {'enforceForClassMembers': true}"
+			"optionString": "'never'"
 			},
 		"consistent-return": {
 			"active": 0,
@@ -1078,7 +810,7 @@
 			"optionString": "{'allowParens': true}"
 			},
 		"no-console": {
-			"active": 0,
+			"active": 1,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
@@ -1779,7 +1511,7 @@
 			},
 		"use-isnan": {
 			"active": 1,
-			"optionString": "{'enforceForSwitchCase': true, 'enforceForIndexOf': false}"
+			"optionString": "{'enforceForSwitchCase': false, 'enforceForIndexOf': false}"
 			},
 		"valid-jsdoc": {
 			"active": 0,

@@ -1,0 +1,24 @@
+<section id="loadingPage">
+    <div>
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 432 176">
+        <defs>
+          <filter x="-2.4%" y="-6.2%" width="104.8%" height="112.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="2.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+            <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feMorphology radius="2.5" in="SourceAlpha" result="shadowInner"/>
+            <feOffset in="shadowInner" result="shadowInner"/>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 1 0 0 0 0 0.226676829 0 0 0 0 0.692850773 0 0 0 1 0" in="shadowBlurOuter1"/>
+          </filter>
+          <path d="M59.32 104.35c41.78-1.41 71.86-36.48 50.87-36.35-20.99.14-34.24 102.98-63.48 101.9-15.85 1.2 4.22-32.46 24.55-14.92 20.34 17.53 45.53 10.77 60.83-5.25-18.51 31.22 13.24 20.02 20.68 4.26 7.45-15.75-.51-21.96-13.12-12.66-12.6 9.3 9.45 31.43 28.16 13.65 18.72-17.78 33.88-20.61 41.56-9.83-7.95-10.34-19.88-9.3-38.07 9.83-18.2 19.14 17.13 18.03 31.73-7.44-17.52 24.93-4.46 27 18.07 12.36 13.27-23.92 29.54-23.24 33.73-18.15-13.22-11.14-42.06 15.67-30.47 26.46 11.58 10.79 73.78-64.9 62.29-73.86-11.5-8.96-48.18 74.68-35 75.15 15.44-.1 40.82-33.57 39-34.02-2.06-.7-27.2 46.12.83 29.47 20.55-11.82 27.21-27.47 24.42-22.74-2.8 4.73-12.35 23.8-13.77 25.45-1.42 1.65 31.85-34.62 38.85-26.33 5.05 7.84-19.9 28.61-6.07 26.33 13.84-2.29 53.24-42.17 64.64-22.68-14.46-20.04-56.43 25.04-35.38 23.23 14.03-1.21 24-8.1 29.88-20.67-21.89 54.46-43.96 82-66.2 82.62-33.38.94-4.7-42.5 34.9-51.16 7.35-1.61 14.67-3.81 21.54-6.28 8.77-3.15 10.93-4.79 23.18-10.05 24.63-10.84 21.63-19.28 17.65-19.33-3.97-.04-11.43 19.15.33 19.06 11.77-.09 22.46-19.03 16.83-19.1-5.63-.06-7.6 19.27.62 19.27 8.21 0 21.23-19.18 15.2-19.19-6.04 0-7.75 19.16 1.7 19.1" id="path-1"/>
+        </defs>
+        <g id="LoadingPath" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g id="Loading" transform="translate(-35 -61)">
+            <use fill="#000" filter="url(#filter-2)" xlink:href="#path-1"/>
+            <use stroke="#FFF" stroke-width="2" xlink:href="#path-1"/>
+          </g>
+        </g>
+      </svg>
+    </div>
+</section>
