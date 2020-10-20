@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "32001",
 "files": {
+	"/assets/svg Demo.sketch": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/svg Demo.sketch",
+		"oF": 0
+		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -38,13 +46,21 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/content/loading.kit": {
+	"/dev/content/demo.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/deploy/loading.html",
-		"oF": 2
+		"oAP": "/dev/content/demo.html",
+		"oF": 0
+		},
+	"/dev/content/loading.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/loading.html",
+		"oF": 0
 		},
 	"/dev/global/head.kit": {
 		"cB": 0,
