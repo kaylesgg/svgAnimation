@@ -376,31 +376,11 @@ textarea {
 /* =============
     Footer
 ============= */
-/* =============
-    Demo
-============= */
-#demo {
-  display: grid;
-  grid-template-columns: auto 90% auto;
-  grid-template-areas: ". demo ."; }
-  @media (min-width: 768px) {
-    #demo {
-      grid-template-columns: auto 80% auto; } }
-  @media (min-width: 992px) {
-    #demo {
-      grid-template-columns: auto 50% auto; } }
-  #demo > div {
-    grid-area: demo;
-    border: 3px solid aqua;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-
 #loadingDrink {
   display: grid;
   grid-template-columns: auto 90% auto;
-  grid-template-areas: ". drink ."; }
+  grid-template-areas: ". drink .";
+  padding: 0; }
   @media (min-width: 768px) {
     #loadingDrink {
       grid-template-columns: auto 80% auto; } }
@@ -411,3 +391,21 @@ textarea {
     grid-area: drink;
     align-content: center;
     justify-content: center; }
+
+#text {
+  font-family: raleway;
+  font-size: xx-large;
+  font-kerning: auto;
+  display: grid;
+  grid-template-columns: auto 4% auto;
+  grid-template-areas: ". Ltext .";
+  grid-area: Ltext;
+  text-align: center;
+  justify-content: center;
+  align-content: flex-start; }
+  @media (min-width: 768px) {
+    #text {
+      grid-template-columns: auto 4% auto; } }
+  @media (min-width: 992px) {
+    #text {
+      grid-template-columns: auto 4% auto; } }

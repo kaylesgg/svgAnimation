@@ -1,0 +1,23 @@
+#text{
+    font-family: raleway;
+    font-size: xx-large;
+    font-kerning: auto;
+   
+        display: grid;
+        grid-template-columns: auto 4% auto;
+        grid-template-areas: ". Ltext .";
+    
+        @include md{
+            grid-template-columns: auto 4% auto;   
+        }
+    
+        @include lg{
+            grid-template-columns: auto 4% auto;
+        }
+    
+        grid-area: Ltext;
+        text-align: center;
+        justify-content: center;
+        align-content: flex-start;
+         }
+    

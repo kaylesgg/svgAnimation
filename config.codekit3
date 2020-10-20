@@ -46,20 +46,20 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/content/demo.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/content/demo.html",
-		"oF": 0
-		},
 	"/dev/content/loading.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/content/loading.html",
+		"oF": 0
+		},
+	"/dev/content/text.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/text.html",
 		"oF": 0
 		},
 	"/dev/global/head.kit": {
@@ -85,17 +85,6 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 2
-		},
-	"/dev/js/demo.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dev/js/demo-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		},
 	"/dev/js/loading.js": {
 		"bF": 0,
@@ -249,19 +238,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_demo.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_demo.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/dev/scss/sections/_loading.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -271,6 +247,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_loading.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_text.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_text.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

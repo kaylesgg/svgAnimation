@@ -4,4 +4,4 @@ import {drinkingAnimation} from "loading.js";
 
 const mainTl = gsap.timeline();
 
-// mainTl.add(iconAnimation());
+ mainTl.add(drinkingAnimation());
