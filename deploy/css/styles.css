@@ -389,18 +389,20 @@ textarea {
       grid-template-columns: auto 50% auto; } }
   #loadingDrink > div {
     grid-area: drink;
-    align-content: center;
+    align-content: bottom;
     justify-content: center; }
 
 #text {
-  font-family: raleway;
-  font-size: xx-large;
-  font-kerning: auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-left: 10%;
+  color: cadetblue;
   display: grid;
   grid-template-columns: auto 4% auto;
   grid-template-areas: ". Ltext .";
   grid-area: Ltext;
-  text-align: center;
+  text-align: right;
   justify-content: center;
   align-content: flex-start; }
   @media (min-width: 768px) {
