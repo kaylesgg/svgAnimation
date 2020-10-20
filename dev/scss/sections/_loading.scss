@@ -1,0 +1,19 @@
+#loadingDrink{
+    display: grid;
+    grid-template-columns: auto 90% auto;
+    grid-template-areas: ". drink .";
+
+    @include md{
+        grid-template-columns: auto 80% auto;   
+    }
+
+    @include lg{
+        grid-template-columns: auto 50% auto;
+    }
+
+    >div{
+        grid-area: drink;
+        align-content: center;
+        justify-content: center;
+        }
+    }

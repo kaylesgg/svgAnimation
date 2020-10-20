@@ -1,0 +1,1 @@
+import{gsap}from"gsap";const drinkTL=gsap.timeline();drinkTL.from();export function drinkingAnimation(){return drinkingAnimation}

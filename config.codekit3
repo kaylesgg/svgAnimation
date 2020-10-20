@@ -58,7 +58,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/content/loading.html",
 		"oF": 0
 		},
@@ -91,8 +91,19 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/js/demo-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/loading.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/loading-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -251,6 +262,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_loading.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_loading.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -327,7 +351,7 @@
 "projectAttributes": {
 	"creationDate": 622561353.46572006,
 	"displayValue": "svgAnimation",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-verd",
 	"iconImageWasSetByUser": 0
 	},
